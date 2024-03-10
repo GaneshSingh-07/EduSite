@@ -1,0 +1,21 @@
+/* Target the scrollbar */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Style the scrollbar track */
+*::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Style the scrollbar thumb */
+*::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Gray thumb */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Styling for other browsers (optional) */
+* {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ccc transparent; /* Firefox */
+}

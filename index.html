@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="CSS/custom.css" />
+    <link rel="stylesheet" href="./CSS/scrollbar.css" />
+  </head>
+  <body class="roboto-regular">
+    <section id="holder" class="flex flex-row h-screen">
+      <section id="left" class="basis-1/4 bg-blue-400 grid grid-col-1">
+        <!-- design that is to be done in the left part of the website -->
+        <div class="m-2 flex flex-row items-center justify-center">
+          <!-- upper menu in the left side -->
+          <div
+            class="text-gray-700 roboto-bold text-lg hover:scale-125 transition-all duration-300 ease-linear"
+          >
+            LOGO
+          </div>
+        </div>
+        <div class="m-2 my-8">
+          <!-- middle menu in the left side -->
+          <div
+            class="m-2 flex flex-row items-center px-2 hover:border-l-8 rounded transition-all duration-300 ease-linear border-gray-700"
+          >
+            <img src="./svg/dashboard.svg" alt="img" class="h-8" />
+            <div class="mx-4 text-sm text-gray-700 roboto-bold">Dashboard</div>
+          </div>
+
+          <div
+            class="m-2 flex flex-row items-center px-2 hover:border-l-8 rounded transition-all duration-300 ease-linear border-gray-700"
+          >
+            <img src="./svg/folder.svg" alt="img" class="h-8" />
+            <div class="mx-4 text-sm text-gray-700 roboto-bold">
+              All Courses
+            </div>
+          </div>
+          <div
+            class="m-2 flex flex-row items-center px-2 hover:border-l-8 rounded transition-all duration-300 ease-linear border-gray-700"
+          >
+            <img src="./svg/messages.svg" alt="img" class="h-8" />
+            <div class="mx-4 text-sm roboto-bold text-gray-700">Messages</div>
+          </div>
+          <div
+            class="m-2 flex flex-row items-center px-2 hover:border-l-8 rounded transition-all duration-300 ease-linear border-gray-700"
+          >
+            <img src="./svg/users.svg" alt="img" class="h-8" />
+            <div class="mx-4 text-sm text-gray-700 roboto-bold">Friends</div>
+          </div>
+          <div
+            class="m-2 flex flex-row items-center px-2 hover:border-l-8 rounded transition-all duration-300 ease-linear border-gray-700"
+          >
+            <img src="./svg/schedule.svg" alt="img" class="h-8" />
+            <div class="mx-4 text-sm text-gray-700 roboto-bold">Schedule</div>
+          </div>
+        </div>
+        <div class="m-2 flex">
+          <!-- lower menu in the left side -->
+          <div class="flex flex-col-reverse">
+            <div
+              class="m-2 flex flex-row items-center px-2 hover:border-l-8 rounded transition-all duration-300 ease-linear border-gray-700"
+            >
+              <img src="./svg/settings.svg" alt="img" class="h-8" />
+              <div class="mx-4 text-sm text-gray-700 roboto-bold">Settings</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="right" class="basis-full bg-blue-400 p-1">
+        <section
+          class="bg-gray-200 h-full rounded rounded-lg overflow-y-scroll"
+        >
+          <!-- design to be done in the right part of the design -->
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
